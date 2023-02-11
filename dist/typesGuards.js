@@ -1,4 +1,10 @@
 "use strict";
+function combine(item1, item2) {
+    if (typeof item1 === 'string' || typeof item2 === 'string') {
+        return item1.toString() + item2.toString();
+    }
+    return item1 + item2;
+}
 class Guy {
     constructor(name) {
         this.name = name;
@@ -26,4 +32,4 @@ function gyus(user) {
 }
 console.log(gyus(good));
 gyus(good);
-//# sourceMappingURL=types.js.map
+//# sourceMappingURL=typesGuards.js.map

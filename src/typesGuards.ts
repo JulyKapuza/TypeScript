@@ -1,3 +1,12 @@
+type ComplexType = string | number;
+
+function combine (item1: ComplexType, item2: ComplexType) {
+  if (typeof item1 === 'string' || typeof  item2 === 'string') {
+    return item1.toString() +  item2.toString();
+  }
+  return item1 +  item2;
+}
+
 // Type Guards Class
 
 abstract class Guy {
