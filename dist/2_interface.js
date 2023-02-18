@@ -1,23 +1,23 @@
 "use strict";
 const rect1 = {
-    id: '1234',
+    id: "1234",
     size: {
         width: 20,
         height: 50,
     },
-    color: '#ffffff'
+    color: "#ffffff",
 };
 const rect2 = {
-    id: '14',
+    id: "14",
     size: {
         width: 20,
         height: 50,
     },
 };
-rect2.color = 'black';
+rect2.color = "black";
 const rect3 = {};
 const rect5 = {
-    id: '1235',
+    id: "1235",
     size: {
         width: 45,
         height: 15,
@@ -36,8 +36,8 @@ class Clock {
     }
 }
 const css = {
-    border: '1px solid black',
-    marginTop: '2px',
-    borderRadius: '5px'
+    border: "1px solid black",
+    marginTop: "2px",
+    borderRadius: "5px",
 };
 //# sourceMappingURL=2_interface.js.map
